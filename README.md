@@ -9,7 +9,7 @@ conda env create -f environment.yml
 conda activate amc_project
 ```
 
-For GPU training on this Windows machine, a separate environment was created on the D: drive because the C: drive did not have enough free space for CUDA PyTorch:
+For GPU training on this Windows machine, a separate environment was created on the D: drive.
 
 ```powershell
 conda activate D:\conda_envs\amc_gpu
