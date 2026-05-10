@@ -1,0 +1,15 @@
+name: amc_project
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - numpy
+  - scikit-learn
+  - matplotlib
+  - pytorch
+  - cpuonly
+  - pip
+  - pip:
+      - rfml @ git+https://github.com/brysef/rfml.git@1.0.1

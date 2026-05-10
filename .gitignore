@@ -1,0 +1,26 @@
+# Python caches
+__pycache__/
+*.py[cod]
+
+# Local environments
+.venv/
+venv/
+env/
+.env
+
+# Large local dataset and model checkpoints
+code/data/*.pkl
+code/results/**/best_model.pt
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Temporary presentation previews
+presentation/*_preview/
+
+# Submission artifacts kept local
+presentation/
+report/
